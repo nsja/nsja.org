@@ -1,4 +1,11 @@
 $(document).ready(function() {
+
+    $(document).ajaxStart(function() {
+      $('.loading').show();
+    }).ajaxStop(function() {
+      $('.loading').hide();
+    });
+
     var $form = $('form');
 
     if ($form.length > 0) {
@@ -22,8 +29,12 @@ $(document).ready(function() {
                     $('.message').css('display', 'block');
 
                     if (data.result != "success") {
-                        var result = data.msg.split(' - ');
-                        var display = result[1];
+                        var display = data.msg;
+
+                        if (display.includes(' - ')) {
+                            var result = data.msg.split(' - ');
+                            display = result[1];
+                        }
 
                         if (display[display.length-1] !== '.') {
                             display += '.';

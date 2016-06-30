@@ -164,6 +164,16 @@ header ul li {
 	cursor: hand;
 }
 
+.content .loading {
+	display: none;
+}
+
+.content .loading img {
+	width: 40px;
+	margin: 10px auto 0 auto;
+	display: block;
+}
+
 .content .message {
 	display: none;
 	margin-top: 10px;
