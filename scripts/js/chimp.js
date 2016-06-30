@@ -33,6 +33,7 @@ $(document).ready(function() {
                     } else {
                         $('.message').html('You have been subscribed. Please check your email to confirm your subscription.');
                         $('input[type="text"], input[type="email"]').val('');
+                    			$('.button').prop('disabled', true);
                     }
 
                     $('.message').delay(3000).fadeOut('slow');
