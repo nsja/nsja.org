@@ -1,0 +1,99 @@
+/**
+ * FreightSansPro Font.
+ */
+
+@font-face {
+  font-family: 'FreightSansPro';
+  src: url('freightsansproblackitalic-webfont.woff2') format('woff2'),
+       url('freightsansproblackitalic-webfont.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'FreightSansPro';
+  src: url('freightsansproblk-webfont.woff2') format('woff2'),
+       url('freightsansproblk-webfont.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FreightSansPro';
+  src: url('freightsansprobold-webfont.woff2') format('woff2'),
+       url('freightsansprobold-webfont.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FreightSansPro';
+  src: url('freightsansprobolditalic-webfont.woff2') format('woff2'),
+       url('freightsansprobolditalic-webfont.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'FreightSansPro';
+  src: url('freightsansprobook-webfont.woff2') format('woff2'),
+       url('freightsansprobook-webfont.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FreightSansPro';
+  src: url('freightsansprobookitalic-webfont.woff2') format('woff2'),
+       url('freightsansprobookitalic-webfont.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'FreightSansPro';
+  src: url('freightsansprolight-webfont.woff2') format('woff2'),
+       url('freightsansprolight-webfont.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FreightSansPro';
+  src: url('freightsansprolightitalic-webfont.woff2') format('woff2'),
+       url('freightsansprolightitalic-webfont.woff') format('woff');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'FreightSansPro';
+  src: url('freightsanspromedium-webfont.woff2') format('woff2'),
+       url('freightsanspromedium-webfont.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FreightSansPro';
+  src: url('freightsanspromediumitalic-webfont.woff2') format('woff2'),
+       url('freightsanspromediumitalic-webfont.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'FreightSansPro';
+  src: url('freightsansprosemibold-webfont.woff2') format('woff2'),
+       url('freightsansprosemibold-webfont.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FreightSansPro';
+  src: url('freightsansprosemibolditalic-webfont.woff2') format('woff2'),
+       url('freightsansprosemibolditalic-webfont.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+}
