@@ -42,7 +42,7 @@ $(document).ready(function() {
 
                         $('.message').html(display);
                     } else {
-                        $('.message').html('You have been subscribed. Please check your email to confirm your subscription.');
+                        $('.message').html('Thanks for showing interest. We&rsquo;ll keep you updated.');
                         $('input[type="text"], input[type="email"]').val('');
                     			$('.button').prop('disabled', true);
                     }
