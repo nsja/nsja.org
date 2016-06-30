@@ -1,5 +1,5 @@
 $(function() {
-	$(document).keyup(function(e) {
+	function validate() {
 		function hasValue(selector) {
 			return $.trim($(selector).val()).length;
 		}
@@ -10,5 +10,15 @@ $(function() {
 		else {
 			$('.button').prop('disabled', true);
 		}
+	}
+
+	// If jQuery is super slow to load we still want the button to show up
+	setInterval(function() {
+		validate();
+	}, 1000);
+
+	// When the user releases a key
+	$(document).keyup(function() {
+		validate();
 	});
 });

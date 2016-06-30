@@ -163,6 +163,19 @@ header ul li {
 	cursor: hand;
 }
 
+.content .message {
+	display: none;
+	margin-top: 10px;
+	line-height: 14px;
+	font-size: 14px;
+}
+
+.content .message a {
+	color: #0088FF;
+	border-bottom: 1px solid black;
+	text-decoration: none;
+}
+
 footer {
 	font-family: 'FreightSansPro', 'PTSans', sans-serif;
 	position: absolute;
